@@ -1250,7 +1250,7 @@
       rng_pool = new Array();
       rng_pptr = 0;
       var t;
-      if(typeof window !== "undefined" && window.crypto) {
+      if(false && typeof window !== "undefined" && window.crypto) {
         if (window.crypto.getRandomValues) {
           // Use webcrypto if available
           var ua = new Uint8Array(32);
